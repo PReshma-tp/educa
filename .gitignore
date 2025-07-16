@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+
+# Static files
+static/
+
+# Compiled translation files
+*.mo
+
+# Django migrations (optional)
+# You can track them if needed
+# **/migrations/*.pyc
+
+# Local settings (optional, if you use it)
+# local_settings.py
+
+# VS Code settings (optional)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
