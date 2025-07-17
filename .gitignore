@@ -7,8 +7,16 @@ __pycache__/
 env/
 venv/
 
-# Static files
-static/
+# Ignore collected static files (from collectstatic)
+staticfiles/
+
+# But keep app-level static files
+!static/
+!static/css/
+!static/js/
+
+#ignore images
+images/
 
 # Compiled translation files
 *.mo
