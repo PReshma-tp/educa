@@ -1,4 +1,4 @@
-from rest_framework.permissions import BasePermissionks
+from rest_framework.permissions import BasePermission
 
 class IsEnrolled(BasePermission):
     def has_object_permission(self, request, view, obj):
