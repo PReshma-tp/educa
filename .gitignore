@@ -9,12 +9,10 @@ venv/
 .venv/
 
 # Ignore collected static files (from collectstatic)
-staticfiles/
+static/
 
 # But keep app-level static files
-!static/
-!static/css/
-!static/js/
+!*/static/
 
 #ignore images
 images/
@@ -39,3 +37,6 @@ Thumbs.db
 # db files
 db.sqlite3
 *.sqlite3
+
+#log files
+*.log
