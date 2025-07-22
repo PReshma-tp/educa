@@ -40,3 +40,6 @@ db.sqlite3
 
 #log files
 *.log
+
+*.crt
+*.key
