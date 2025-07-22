@@ -22,3 +22,5 @@ DATABASES = {
 SECURE_SSL_REDIRECT = True
 
 CSRF_COOKIE_SECURE = True
+
+ALLOWED_HOSTS = ['.educaproject.com']
